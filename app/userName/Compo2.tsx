@@ -7,6 +7,7 @@ export default function Compo2() {
   return (
     <div>
       <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
+      <div>안녕하세요.</div>
     </div>
   );
 }
